@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="robots" content="noindex,follow" />  
+  <meta name="language" content="es" />  
+  <title>SaigoEsport - Personalizado</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="../js/materialize.js"></script>
+  <script src="../js/init.js"></script>
+</head>
+
+
+
+<body>
+
+  <!-- Navbar -->    
+  <nav class="navbar-extended teal lighten-2 ">
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo white-text"> <img class="responsive-img" src="../img/saigo.png" width="32" height="auto">Saigoesport</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a class="white-text" href="../index.html">Inicio</a></li>
+        <li><a class="white-text" href="galeria.html">Galería</a></li>
+        <li><a class="white-text" href="personalizado.html">Personalizado</a></li>
+        <li><a class="white-text" href="presentacion.html">Sobre Nosotros</a></li>
+        <li><a class="white-text" href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a class="black-text" href="../index.html">Inicio</a></li>
+    <li><a class="black-text" href="galeria.html">Galería</a></li>
+    <li><a class="black-text" href="personalizado.html">Personalizado</a></li>
+    <li><a class="black-text" href="presentacion.html">Sobre Nosotros</a></li>
+    <li><a class="black-text" href="contacto.html">Contacto</a></li>
+  </ul>
+  <!-- End Navbar -->        
+  
+
+  <!-- Portada -->
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="shadow header center white-text text-lighten-2">Diseños Personalizados</h1>
+      </div>
+    </div>
+    <div class="parallax"><img src="../img/personalizado.png" alt="Unsplashed background img 1"></div>
+  </div>
+
+  
+  <!-- Carrusel de imagenes -->
+  <p></p>
+  <div class="row">
+    <div class="col s7 offset-s3">
+      
+      <div class="heighter carousel carousel-slider">
+        <a class="carousel-item" href="../img/design/im007.jpg"><img width="650" src="../img/design/im007.jpg"></a>
+        
+      </div>
+
+    </div></div>
+
+    
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.carousel.carousel-slider').carousel(
+        {
+          fullWidth: false,
+          shift: 100,
+          indicators: true
+        }
+        
+        );
+      });
+    </script>
+    
+    <p></p>    
+    
+    <!-- Pie de pagina -->
+    <footer class="page-footer teal">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Piscinas S'aigoEsport</h5>
+            <i class="tiny material-icons">phone_in_talk </i><p style="display:inline" class=" grey-text text-lighten-4 prefix">631 92 93 78</p><p></p>
+            <i class="tiny material-icons">email </i><a style="display:inline" class=" grey-text text-lighten-4 prefix" href="mailto:aigoesport@gmail.com">saigoesport@gmail.com</a><p></p>
+            <!-- <i class="tiny material-icons">email </i><a style="display:inline" class=" grey-text text-lighten-4 prefix" href="mailto:contacto@saigoesport.es">contacto@saigoesport.es</a> -->
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Navegación</h5>
+            <ul>
+              <li><a class="white-text" href="../sitemap.xml">Sitemap</a></li>
+              <li><a class="white-text" href="galeria.html">Galeria</a></li>
+              <li><a class="white-text" href="presentacion.html">Sobre nosotros</a></li>
+              <li><a class="white-text" href="contacto.html">Presupuesto</a></li>
+            </ul>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Enlaces</h5>
+            <ul>
+              <li><a class="white-text" href="mailto:saigoesport@gmail.com">Contacto</a></li>
+              <li><a class="white-text" href="avisolegal.html">Aviso Legal</a></li>
+              <li><a class="white-text" href="politicayprivacidad.html">Política de privacidad</a></li>
+              <li><a class="white-text" href="cookies.html">Política de cookies</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+       <div class="container">
+        Made with love and <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+        by <a class="brown-text text-lighten-3" href="https://patchdev.gitlab.io/">PatchDev</a>
+      </div> 
+    </div>
+  </footer>
+
+</body>
+</html>
