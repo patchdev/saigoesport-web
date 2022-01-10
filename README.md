@@ -5,7 +5,7 @@ Static website for construction's bussiness "Saigoesport".
 
 **Author** Diego P.
 
-![](https://github.com/patchdev/saigoesport-web/blob/origin/demo.png)
+![](https://github.com/patchdev/saigoesport-web/blob/main//demo.png?raw=true)
 
 # Description
 This project is a frontend-based web development for "Saigoesport" bussiness. The frontend is made with Materialize Css. The website has no backend elements such as forms or some comments section, but can be added in the future. This version is also smartphone-friendly.
